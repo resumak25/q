@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Data Quality Improvement - Preview | Click to contact</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {margin:0;}
+.navbar {
+	overflow: hidden;background-color: #333;width: 100%;
+	position: fixed;top: 0;
+	}
+
+.navbar a {
+	float: left; display: block; color: #f2f2f2; text-align: center;
+	padding: 14px 16px; text-decoration: none; font-size: 17px;
+	}
+.navbar a:hover {
+	background: black;
+	color: black;
+	}
+._aio {  
+  display: flex;
+  flex-wrap: wrap;
+}
+._tile {
+  float: left;
+  width: 33%;
+  padding: 20px 8px;
+  display:block  ;
+  margin-top: 50px;
+  }
+
+/* rearrage tiles based on Width */
+@media screen and (max-width: 100px) {
+  ._aio {   
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 4000px) {
+  ._tile {
+    width: 45%;
+  }
+}
+@media screen and (max-width: 1300px) {
+  ._tile {
+    width: 45%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  ._tile {
+    width: 100%;
+  }
+}
+
+</style>
+</head>
+<body onload="tile_gallery()" style="background-color: black;" >
+<div class="navbar">
+
+	<a id="a_home"onClick="tile_gallery()" title="Gallery of Tiles">
+	  	<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#F19E39"><path d="M120-440v-320q0-33 23.5-56.5T200-840h240v400H120Zm240-80Zm160-320h240q33 0 56.5 23.5T840-760v160H520v-240Zm0 720v-400h320v320q0 33-23.5 56.5T760-120H520ZM120-360h320v240H200q-33 0-56.5-23.5T120-200v-160Zm240 80Zm240-400Zm0 240Zm-400-80h160v-240H200v240Zm400-160h160v-80H600v80Zm0 240v240h160v-240H600ZM200-280v80h160v-80H200Z"/></svg>
+	</a>
+	<a id="a_email" onclick="email_to_clip()" title="Copy email to clipboard">
+    <svg id='a_email_at'  style="display:block;" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#75FB4C"><path d="M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480v58q0 59-40.5 100.5T740-280q-35 0-66-15t-52-43q-29 29-65.5 43.5T480-280q-83 0-141.5-58.5T280-480q0-83 58.5-141.5T480-680q83 0 141.5 58.5T680-480v58q0 26 17 44t43 18q26 0 43-18t17-44v-58q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93h200v80H480Zm0-280q50 0 85-35t35-85q0-50-35-85t-85-35q-50 0-85 35t-35 85q0 50 35 85t85 35Z"/></svg>
+	  <svg id='a_email_cc'  style="display:none;" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#75FBFD"><path d="m508-398 226-226-56-58-170 170-86-84-56 56 142 142ZM320-240q-33 0-56.5-23.5T240-320v-480q0-33 23.5-56.5T320-880h480q33 0 56.5 23.5T880-800v480q0 33-23.5 56.5T800-240H320Zm0-80h480v-480H320v480ZM160-80q-33 0-56.5-23.5T80-160v-560h80v560h560v80H160Zm160-720v480-480Z"/></svg>
+	</a>	
+	<a id="a_copy" title="&copy; 2025 Qrithi, Inc. | Please contact for details." style=" float:right;">
+<svg
+   height="24px"
+   viewBox="0 0 44.56221 44.562622"
+   version="1.1"
+   id="svg1014"
+   inkscape:export-xdpi="599.91772"
+   inkscape:export-ydpi="599.91772"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1016"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="2.7117565"
+     inkscape:cx="135.88978"
+     inkscape:cy="91.084876"
+     inkscape:window-width="1920"
+     inkscape:window-height="1010"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1011">
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter1744"
+       x="-0.057030088"
+       y="-0.057029499"
+       width="1.1140602"
+       height="1.114059">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.95049724"
+         id="feGaussianBlur1746" />
+    </filter>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-220.13632,-283.68362)">
+    <g
+       id="g2083">
+      <path
+         id="path1720"
+         style="display:inline;opacity:0.841084;mix-blend-mode:normal;fill:#666666;stroke-width:0.131352;stroke-opacity:0;paint-order:markers fill stroke;filter:url(#filter1744)"
+         d="m 242.86302,285.96481 c -8.30771,0.002 -16.71773,4.99066 -19.24275,13.39815 -5.0482,12.84848 6.58353,27.95047 20.18843,26.50587 9.18115,-0.45239 17.32063,-8.06183 18.41283,-17.21342 0.94435,-6.50634 -1.57577,-13.35687 -6.50813,-17.68936 -2.76805,-2.67937 -6.20575,-4.22653 -9.80509,-4.77386 -1.00605,-0.15299 -2.02506,-0.22768 -3.04529,-0.22738 z m -8.21397,7.58558 c 2.89181,0.65996 11.20147,2.63671 13.00799,5.79086 1.99337,3.48041 -2.50008,13.30476 -4.51187,18.44797 2.30217,-1.75064 3.63223,-1.77517 6.72362,-2.64531 -2.33111,2.42567 -5.56715,5.40486 -9.16533,7.52409 0.39439,-3.74605 1.35991,-8.41639 4.34444,-15.03785 1.5504,-3.43972 2.40874,-5.99409 1.68775,-7.64914 -0.72097,-1.655 -5.14071,-2.69507 -9.46247,-3.77652 -1.16916,9.22435 1.90371,9.13975 5.57795,10.68772 -0.08,-0.88681 -0.29088,-2.10563 -0.6568,-3.88503 0.88265,2.15125 1.21191,3.31265 1.72237,4.81779 -11.51583,-1.69317 -10.70521,-4.31912 -9.26765,-14.27458 z" />
+      <path
+         id="path19705"
+         style="display:inline;fill:#ffffff;stroke-width:0.131352;stroke-opacity:0;paint-order:markers fill stroke"
+         d="m 241.27552,284.3773 c -8.30771,0.002 -16.71774,4.99066 -19.24276,13.39815 -5.0482,12.84848 6.58354,27.95048 20.18843,26.50588 9.18116,-0.45239 17.32063,-8.06183 18.41283,-17.21342 0.94435,-6.50634 -1.57577,-13.35687 -6.50813,-17.68936 -2.76804,-2.67937 -6.20574,-4.22654 -9.80508,-4.77387 -1.00605,-0.15299 -2.02506,-0.22768 -3.04529,-0.22738 z m -8.21397,7.58559 c 2.89181,0.65996 11.20147,2.63671 13.00799,5.79086 1.99337,3.48041 -2.50008,13.30476 -4.51187,18.44797 2.30217,-1.75064 3.63223,-1.77518 6.72362,-2.64532 -2.33111,2.42567 -5.56715,5.40486 -9.16533,7.52409 0.39439,-3.74605 1.35991,-8.41638 4.34444,-15.03784 1.5504,-3.43972 2.40874,-5.9941 1.68775,-7.64915 -0.72097,-1.655 -5.14071,-2.69506 -9.46247,-3.77651 -1.16916,9.22435 1.90371,9.13975 5.57795,10.68772 -0.08,-0.88681 -0.29089,-2.10563 -0.65681,-3.88503 0.88265,2.15125 1.21192,3.31265 1.72238,4.81779 -11.51583,-1.69317 -10.70521,-4.31912 -9.26765,-14.27458 z" />
+    </g>
+  </g>
+</svg>
+</a>
+	
+</div>
+
+
+<div class="_aio" id="aio" >
+
+</div>
+
+
+<script>
+function tile_gallery()
+	{
+	_html = "";
+
+	_id = "QDz9Bd";
+	_html = _html + '<img class="_tile"  title="Click for Detail" xmlns="http://www.w3.org/2000/svg" src="./'+_id+'--.svg" id="'+_id+'" onclick = "open_detail(\''+_id+'\')" />';
+
+	_id = "QVz9Bd";
+//	_html = _html + '<img width="50%" xmlns="http://www.w3.org/2000/svg" src="./'+_id+'--.svg" id="'+_id+'" onclick = "open_detail(\''+_id+'\')" />';
+	_html = _html + '<img class="_tile" title="Click for Detail" xmlns="http://www.w3.org/2000/svg" src="./'+_id+'--.svg" id="'+_id+'"  />';
+
+	document.getElementById("aio").innerHTML = _html;
+  //document.getElementById("a_copy").title = "\&copy; 2025 Qrithi, Inc.\nPlease contact for more details." ;
+	}
+
+function open_detail(_id)
+	{
+	document.getElementById("aio").innerHTML = '<img width="100%" title="This is a preview only. Please contact for more details\nClick Gallery icon to go back to Tiles" xmlns="http://www.w3.org/2000/svg" src="'+_id+'-.svg" />';
+	}
+
+
+async function email_to_clip(_at = '@')
+    {
+    _email = 'reems-unmoatko2r5p'.replace('-','.');
+
+    navigator.clipboard.writeText(_email.split("").map((item, index) => (index % 2 === 0) ? item : "").join("")+_at+_email.split("").map((item, index) => (index % 2 != 0) ? item : "").reverse().join(""));
+   
+    document.getElementById("a_email_at").style.display= 'none';
+    document.getElementById("a_email_cc").style.display= 'block';
+    setTimeout(() => 
+        {
+        document.getElementById("a_email_at").style.display = 'block';
+        document.getElementById("a_email_cc").style.display= 'none';
+        }, 500);
+
+    }
+</script>
+</body>
+</html>
