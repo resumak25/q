@@ -25,7 +25,7 @@
   </font>
  </defs>
  <defs class="TextShapeIndex">
-  <g ooo:slide="id1" ooo:id-list="id3 id4 id5 id6"/>
+  <g ooo:slide="id1" ooo:id-list="id3 id4 id5"/>
  </defs>
  <defs class="EmbeddedBulletChars">
   <g id="bullet-char-template-57356" transform="scale(0.00048828125,-0.00048828125)">
@@ -78,20 +78,14 @@
       </g>
       <g class="com.sun.star.drawing.CustomShape">
        <g id="id4">
-        <rect class="BoundingBox" stroke="none" fill="none" x="5080" y="4668" width="10163" height="764"/>
-        <text class="SVGTextShape"><tspan class="TextParagraph"><tspan class="TextPosition" x="7983" y="5179"><tspan font-family="Verdana, sans-serif" font-size="423px" font-weight="700" fill="rgb(204,204,204)" stroke="none" style="white-space: pre">Coming Soon...</tspan></tspan></tspan></text>
-       </g>
-      </g>
-      <g class="com.sun.star.drawing.CustomShape">
-       <g id="id5">
-        <rect class="BoundingBox" stroke="none" fill="none" x="10" y="1889" width="20302" height="8212"/>
-        <path fill="none" stroke="rgb(51,51,51)" stroke-width="81" stroke-linejoin="round" d="M 616,1930 L 617,1930 C 518,1930 420,1956 334,2006 248,2056 177,2127 127,2213 77,2299 51,2397 51,2496 L 51,9493 51,9493 C 51,9592 77,9690 127,9776 177,9862 248,9933 334,9983 420,10033 518,10059 617,10059 L 19704,10059 19704,10059 C 19803,10059 19901,10033 19987,9983 20073,9933 20144,9862 20194,9776 20244,9690 20270,9592 20270,9493 L 20270,2495 20270,2496 20270,2496 C 20270,2397 20244,2299 20194,2213 20144,2127 20073,2056 19987,2006 19901,1956 19803,1930 19704,1930 L 616,1930 Z "/>
+        <rect class="BoundingBox" stroke="none" fill="none" x="5080" y="4698" width="10163" height="765"/>
+        <text class="SVGTextShape"><tspan class="TextParagraph"><tspan class="TextPosition" x="7983" y="5210"><tspan font-family="Verdana, sans-serif" font-size="423px" font-weight="700" fill="rgb(204,204,204)" stroke="none" style="white-space: pre">Coming Soon...</tspan></tspan></tspan></text>
        </g>
       </g>
       <g class="Graphic">
-       <g id="id6">
-        <rect class="BoundingBox" stroke="none" fill="none" x="7003" y="4680" width="661" height="661"/>
-        <path fill="rgb(183,183,183)" stroke="none" d="M 7249,4982 L 7305,4925 7268,4887 7239,4916 7202,4879 7231,4850 7201,4821 7144,4878 7249,4982 7249,4982 Z M 7465,5199 L 7522,5142 7493,5112 7464,5141 7427,5104 7455,5075 7417,5038 7361,5094 7465,5199 7465,5199 Z M 7208,5248 L 7095,5248 7095,5135 7211,5020 7069,4878 7201,4746 7344,4889 7443,4788 C 7449,4783 7454,4779 7461,4776 7468,4774 7474,4772 7482,4772 7489,4772 7495,4774 7502,4776 7509,4779 7515,4783 7520,4788 L 7555,4824 C 7560,4829 7564,4835 7567,4842 7569,4848 7571,4855 7571,4862 7571,4869 7569,4876 7567,4882 7564,4889 7560,4895 7555,4900 L 7455,5000 7597,5142 7465,5274 7323,5132 7208,5248 7208,5248 Z M 7148,5195 L 7185,5195 7444,4937 7406,4899 7148,5158 7148,5195 7148,5195 Z "/>
+       <g id="id5">
+        <rect class="BoundingBox" stroke="none" fill="none" x="7003" y="4780" width="661" height="661"/>
+        <path fill="rgb(183,183,183)" stroke="none" d="M 7249,5082 L 7305,5025 7268,4987 7239,5016 7202,4979 7231,4950 7201,4921 7144,4978 7249,5082 7249,5082 Z M 7465,5299 L 7522,5242 7493,5212 7464,5241 7427,5204 7455,5175 7417,5138 7361,5194 7465,5299 7465,5299 Z M 7208,5348 L 7095,5348 7095,5235 7211,5120 7069,4978 7201,4846 7344,4989 7443,4888 C 7449,4883 7454,4879 7461,4876 7468,4874 7474,4872 7482,4872 7489,4872 7495,4874 7502,4876 7509,4879 7515,4883 7520,4888 L 7555,4924 C 7560,4929 7564,4935 7567,4942 7569,4948 7571,4955 7571,4962 7571,4969 7569,4976 7567,4982 7564,4989 7560,4995 7555,5000 L 7455,5100 7597,5242 7465,5374 7323,5232 7208,5348 7208,5348 Z M 7148,5295 L 7185,5295 7444,5037 7406,4999 7148,5258 7148,5295 7148,5295 Z "/>
        </g>
       </g>
      </g>
